@@ -1,0 +1,6 @@
+projectKey=Sws_demo
+serverUrl=http://10.10.5.75:9001
+serverVersion=6.7.1.35068
+dashboardUrl=http://10.10.5.75:9001/dashboard/index/Sws_demo
+ceTaskId=AYS-c4ArdlwTUc3zzeoq
+ceTaskUrl=http://10.10.5.75:9001/api/ce/task?id=AYS-c4ArdlwTUc3zzeoq

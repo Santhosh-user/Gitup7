@@ -1,0 +1,271 @@
+{
+    "200":{
+      "code": 200,
+      "message": "Success"
+    },
+    "400":{
+      "code": 400,
+      "message": "Invalid Request"
+    },
+    "401":{
+      "code": 401,
+      "message": "Invalid API Key"
+    },
+    "402":{
+      "code": 402,
+      "message": "Missing Auth Key"
+    },
+    "403":{
+      "code": 403,
+      "message": "Invalid Auth Key / Auth Key Expired"
+    },
+    "404":{
+      "code": 404,
+      "message": "Empty Request"
+    },
+    "405":{
+      "code": 405,
+      "message": "Unable to parse Json"
+    },
+    "406":{
+      "code": 406,
+      "message": "Schema Validation Failed"
+    },
+    "407":{
+      "code": 407,
+      "message": "Empty SLK"
+    },
+    "408":{
+      "code": 408,
+      "message": "UserID Missing"
+    },
+    "409":{
+      "code": 409,
+      "message": "Password Missing"
+    },
+    "410":{
+      "code": 410,
+      "message": "Invalid UserID"
+    },
+    "411":{
+      "code": 411,
+      "message": "Invalid Password"
+    },
+    "412":{
+      "code": 412,
+      "message": "User not linked to Application"
+    },
+    "413":{
+      "code": 413,
+      "message": "Invalid AppID"
+    },
+    "414":{
+      "code": 414,
+      "message": "User Application is not Active"
+    },
+    "415":{
+      "code": 415,
+      "message": "No SLK found against User Application"
+    },
+    "416":{
+      "code": 416,
+      "message": "User Application SLK is not Active"
+    },
+    "417":{
+      "code": 417,
+      "message": "Failed to generate Auth Key, Please try again"
+    },
+    "418":{
+      "code": 418,
+      "message": "User Account Expired"
+    },
+    "419":{
+      "code": 419,
+      "message": "User Account Blocked"
+    },
+    "420":{
+      "code": 420,
+      "message": "User Account InActive"
+    },
+    "421":{
+      "code": 421,
+      "message": "User Blocked"
+    },
+    "422":{
+      "code": 422,
+      "message": "Invalid Account Licence"
+    },
+    "423":{
+      "code": 423,
+      "message": "No credits in User Account"
+    },
+    "424":{
+      "code": 424,
+      "message": "Insufficient User Account Balance"
+    },
+    "425":{
+      "code": 425,
+      "message": "Invalid User Account Billing Type"
+    },
+    "426":{
+      "code": 426,
+      "message": "Service is InActive to this User Account"
+    },
+    "427":{
+      "code": 427,
+      "message": "PAN Image Missing"
+    },
+    "428":{
+      "code": 428,
+      "message": "Invalid ServiceID"
+    },
+    "429":{
+      "code": 429,
+      "message": "Invalid Base64"
+    },
+    "430":{
+      "code": 430,
+      "message": "Unsupported format, Supports only jpg, png, pdf"
+    },
+    "431":{
+      "code": 431,
+      "message": "Size of the Pan Image exceeded the limit (8MB)"
+    },
+    "432":{
+      "code": 432,
+      "message": "OfflineKyc data is Missing"
+    },
+    "433":{
+      "code": 433,
+      "message": "Inavlid OfflineKyc DataType, Supports only XML, PDF, QR"
+    },
+    "434":{
+      "code": 434,
+      "message": "Invalid OfflineKycXML File"
+    },
+    "435":{
+      "code": 435,
+      "message": "Invalid Share Code (or) Password"
+    },
+    "436":{
+      "code": 436,
+      "message": "PAN Number is Missing"
+    },
+    "437":{
+      "code": 437,
+      "message": "Invalid PAN Number"
+    },
+    "438":{
+      "code": 438,
+      "message": "IFSC Number is Missing"
+    },
+    "439":{
+      "code": 439,
+      "message": "Invalid IFSC Code"
+    },
+    "440":{
+      "code": 440,
+      "message": "Invalid Account Number"
+    },
+    "441":{
+      "code": 441,
+      "message": "Invalid Contact Number"
+    },
+    "442":{
+      "code": 442,
+      "message": "Invalid EmailId"
+    },
+    "443":{
+      "code": 443,
+      "message": "Invalid Name"
+    },
+    "444":{
+      "code": 444,
+      "message": "Size of the Aadhaar Image exceeded the limit (8MB)"
+    },
+    "445":{
+      "code": 445,
+      "message": "Aadhaar Image Missing"
+    },
+    "446":{
+      "code": 446,
+      "message": "Size of the Passport Image exceeded the limit (8MB)"
+    },
+    "447":{
+      "code": 447,
+      "message": "Passport Image Missing"
+    },
+    "448":{
+      "code": 448,
+      "message": "Size of the Image exceeded the limit (8MB)"
+    },
+    "449":{
+      "code": 449,
+      "message": "Transaction ID Missing"
+    },
+    "450":{
+      "code": 450,
+      "message": "Invalid Transaction ID"
+    },
+    "451":{
+      "code": 451,
+      "message": "Transaction Fetch Limit Exceeded"
+    },
+    "452":{
+      "code": 452,
+      "message": "Fetch is not available for this Transaction ID"
+    },
+    "453":{
+      "code": 453,
+      "message": "DocType Missing"
+    },
+    "454":{
+      "code": 454,
+      "message": "RRN Missing"
+    },
+    "455":{
+      "code": 455,
+      "message": "Invalid DocType"
+    },
+    "456":{
+      "code": 456,
+      "message": "Already this transaction has been processed, Please request for another transaction"
+    },
+    "457":{
+      "code": 457,
+      "message": "Dynamic Response Message"
+    },
+    "458":{
+      "code": 458,
+      "message": "Invalid AuthType"
+    },
+    "459":{
+      "code": 459,
+      "message": "Invalid AuthFactor"
+    },
+    "460":{
+      "code": 460,
+      "message": "Invalid Mobile Number"
+    },
+    "461":{
+      "code": 461,
+      "message": "OTP is Missing"
+    },
+    "462":{
+      "code": 462,
+      "message": "Message is Missing"
+    },
+    "463":{
+      "code": 463,
+      "message": "Email Subject is Missing"
+    },
+    "464":{
+      "code": 464,
+      "message": "Attachment Name is Missing"
+    },
+    "500":{
+      "code": 500,
+      "message": "Something went wrong"
+    }
+  
+}

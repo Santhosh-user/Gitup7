@@ -1,0 +1,276 @@
+[
+    {
+        "accname": "SYNTIZEN",
+        "accamount": "10000",
+        "restricted": "false",
+        "users": [
+            {
+                "_id": "xyz",
+                "name": "mjfasion",
+                "email": "santhoshdevelops@gmail.com",
+                "role": "0",
+                "authorization": "",
+                "isloggedin": "",
+                "lastloggedin": "",
+                "refreshtoken": "", //old token  as reference and new token is created
+                "rest_link": "", //reset link 
+                "restricted": "false",
+                "user_services_association": [
+                    {
+                        "_id": "xyz",
+                        "sid": "Service id",
+                        "expires": "999",
+                        "limit": "200",
+                        "count": "0",
+                        "licencekey": "xyz",// ! check if required
+                        "scost": ""
+                    },
+                    {
+                        "_id": "xyz",
+                        "sid": "Service id",
+                        "expires": "999",
+                        "limit": "200",
+                        "count": "0",
+                        "licencekey": "xyz",// ! check if required
+                        "scost": 
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "accname": "SYNTIZEN",
+        "accamount": "10000",
+        "restricted": "false",
+        "users": [
+            {
+                "_id": "xyz",
+                "name": "mansoor",
+                "email": "asd@asdf.co",
+                "role": "HOD", // 0, 1, 2
+                "authorization": "", // jwt auth key
+                "refreshtoken": "", 
+                "rest_link": "", 
+                "restricted": "false",
+                "user_services_association": [
+                    {
+                        "_id": "xyz",
+                        "sid": "Service id",
+                        "expires": "999",
+                        "limit": "200",
+                        "count": "0",
+                        "licencekey": "xyz",// ! check if required
+                        "scost": 1
+                    },
+                    {
+                        "_id": "xyz",
+                        "sid": "Service id",
+                        "expires": "999",
+                        "limit": "200",
+                        "count": "0",
+                        "licencekey": "xyz",// ! check if required
+                        "scost": 2
+                    }
+                ]
+            }
+        ]
+    }
+]
+
+
+[
+    {
+        "services_collection": [
+            {
+                "organization": [
+                    {
+                        "_id": "xyz",
+                        "orgname": "Syntizen Technology Pvt Ltd",
+                        "orgcode": "SYNT",
+                        "orgaddress": "Hyderabad",
+                        "city": "Hyderabad",
+                        "state": "Telangana",
+                        "country": "India",
+                        "pincode": "500085",
+                        "email": "sales@syntizen.com",
+                        "mobilenos": "9502604172",
+                        "phonenos": "9502604172",
+                        "datecreated": "2021-03-16 10:59:50",
+                        "datemodified": "2021-03-16 10:59:51",
+                        "status": "true", // true or false
+                        "service_providers": [
+                            {
+                                "_id": "xyz", 
+                                "providername": "Syntizen",
+                                "status": "true",
+                                "datecreated": "2022-03-07 10:17:14",
+                                "services_list": [
+                                    {
+                                        "_id": "xyz", (sid)
+                                        "servicecode": "SYN",
+                                        "servicename": "OCR",
+                                        "stagename": "uat",
+                                        "url1": null,
+                                        "url2": "http://10.10.5.44:5000/",
+                                        "isdefault": 1,
+                                        "ref1": null,
+                                        "ref2": null,
+                                        "ref3": null,
+                                        "status": "true",
+                                        "stage": "uat"
+                                    },
+                                    {
+                                        "_id": "xyz",
+                                        "oemcode": "SYN",
+                                        "oemname": "Syntizen",
+                                        "url1": "https://api.digitallocker.gov.in/public/oauth2/1/authorize?response_type=code",
+                                        "url2": "https://app.syntizen.com/api/sws/digilockerreturn",
+                                        "isdefault": 1,
+                                        "ref1": "C3467EC7",
+                                        "ref2": "fa84a072eea079c24382",
+                                        "ref3": null,
+                                        "status": "true",
+                                        "stage": "uat"
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": "xyz",
+                                "providername": "NSDL",
+                                "status": 1,
+                                "datecreated": "2022-03-16 21:21:38",
+                                "services_list": [
+                                    {
+                                        "_id": "xyz",
+                                        "servicecode": "NSDL",
+                                        "servicename": "Syntizen",
+                                        "stagename": "uat",
+                                        "url1": null,
+                                        "url2": "http://10.10.5.44:5000/",
+                                        "isdefault": "true",
+                                        "ref1": null,
+                                        "ref2": null,
+                                        "ref3": null,
+                                        "status": "true",
+                                        "stage": "uat"
+                                    },
+                                    {
+                                        "_id": "xyz",
+                                        "oemcode": "NSDL",
+                                        "oemname": "Syntizen",
+                                        "url1": "https://api.digitallocker.gov.in/public/oauth2/1/authorize?response_type=code",
+                                        "url2": "https://app.syntizen.com/api/sws/digilockerreturn",
+                                        "isdefault": 1,
+                                        "ref1": "C3467EC7",
+                                        "ref2": "fa84a072eea079c24382",
+                                        "ref3": null,
+                                        "status": "true",
+                                        "stage": "uat"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "xyz",
+                        "orgname": "mj Technology Pvt Ltd",
+                        "orgcode": "SYNT",
+                        "orgaddress": "Hyderabad",
+                        "city": "Hyderabad",
+                        "state": "Telangana",
+                        "country": "India",
+                        "pincode": "500085",
+                        "email": "sales@syntizen.com",
+                        "mobilenos": "9502604172",
+                        "phonenos": "9502604172",
+                        "datecreated": "2021-03-16 10:59:50",
+                        "datemodified": "2021-03-16 10:59:51",
+                        "status": "true",
+                        "providers": [
+                            {
+                                "_id": "xyz",
+                                "oemname": "Syntizen",
+                                "status": "true",
+                                "datecreated": "2022-03-07 10:17:14",
+                                "services_list": [
+                                    {
+                                        "_id": "xyz",
+                                        "oemcode": "SYN",
+                                        "oemname": "Syntizen",
+                                        "url1": null,
+                                        "url2": "http://10.10.5.44:5000/",
+                                        "isdefault": 1,
+                                        "ref1": null,
+                                        "ref2": null,
+                                        "ref3": null,
+                                        "status": "true"
+                                    },
+                                    {
+                                        "_id": "xyz",
+                                        "oemcode": "SYN",
+                                        "oemname": "Syntizen",
+                                        "url1": "https://api.digitallocker.gov.in/public/oauth2/1/authorize?response_type=code",
+                                        "url2": "https://app.syntizen.com/api/sws/digilockerreturn",
+                                        "isdefault": 1,
+                                        "ref1": "C3467EC7",
+                                        "ref2": "fa84a072eea079c24382",
+                                        "ref3": null,
+                                        "status": "true"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
+
+
+[
+    {
+        "transactions": [
+            {
+                "_id": "tranasactions id",
+                "uid": "userid",
+                "sid": "service id",
+                "odid": "oem id",
+                "rrn": "12312312",
+                "time":"current time",
+            }
+        ]
+    }
+]
+
+ 
+
+//restriction account level and user level - lock account
+//microservies stage name - uat or prod
+//change status to true or false instead of 1 and 0
+//if service code is not required, remove - make list of all
+//check if id changes if the object is edited
+//if we want to trip the transactions between service providers for all users without developers dependency
+//get list of providers, stats, 
+//logstash, kibana with nodejs
+//clinic.js
+//maintian env file for all the urls
+//jwt token, enc keys, prod or uat stage
+//in code level, if service is listed in a user, then it should not be deleted, also check for all relations
+
+// Embedded documents
+// 1. Pros
+//     1.No of collections will be less
+//     2.No of queries will be less
+    
+// 2. Cons
+//     1.Complex queries
+
+// Separate collections
+// 1. Pros
+//     1.Easy to write queries
+//     2.Scalable
+// 2. Cons
+//     1.No of collection will increase
+//     2.No of queries will increase
+
